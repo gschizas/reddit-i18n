@@ -101,7 +101,7 @@ msgstr "υπερβολικά πολλές εικόνες (μόνο μέχρι %d
 
 #: r2/controllers/api.py:1207
 msgid "Invalid image or general image error"
-msgstr ""
+msgstr "Μη έγκυρη εικόνα ή γενικό λάθος εικόνας"
 
 #: r2/controllers/api.py:1637
 msgid "claimed! now go to someone's userpage and give them a present!"
@@ -117,23 +117,23 @@ msgstr "θα αποσταλεί email στη διεύθυνση αυτού το�
 
 #: r2/controllers/api.py:1660
 msgid "try again tomorrow"
-msgstr ""
+msgstr "δοκιμάστε ξανά αύριο"
 
 #: r2/controllers/api.py:1905 r2/controllers/api.py:2066
 msgid "invalid css class"
-msgstr ""
+msgstr "μη έγκυρη κλάση css"
 
 #: r2/controllers/api.py:1908 r2/controllers/api.py:2069
 msgid "too many css classes"
-msgstr ""
+msgstr "υπερβολικά πολλές κλάσεις css"
 
 #: r2/controllers/api.py:2085
 msgid "max flair templates reached"
-msgstr ""
+msgstr "ο μέγιστος αριθμός προτύπων κλίσεων ξεπεράστηκε"
 
 #: r2/controllers/api.py:2303
 msgid "redirecting..."
-msgstr ""
+msgstr "ανακατεύθυνση..."
 
 #: r2/controllers/api.py:2306
 msgid "error (sorry)"
@@ -212,11 +212,11 @@ msgstr "αυτό το όνομα υπάρχει ήδη"
 
 #: r2/controllers/errors.py:34
 msgid "that username is taken by a deleted account"
-msgstr ""
+msgstr "αυτό το όνομα έχει δεσμευτεί από ένα διαγραμμένο λογαριασμό"
 
 #: r2/controllers/errors.py:35
 msgid "you can't send to a user that you have blocked"
-msgstr ""
+msgstr "δεν μπορείτε να στείλετε σε ένα χρήστη που έχετε μπλοκάρει"
 
 #: r2/controllers/errors.py:36
 msgid "id not specified"
@@ -228,11 +228,11 @@ msgstr "δε μπορείτε να το κάνετε αυτό"
 
 #: r2/controllers/errors.py:38
 msgid "you are not logged in as that user"
-msgstr ""
+msgstr "δεν έχετε είσέλθει σαν αυτόν το χρήστη"
 
 #: r2/controllers/errors.py:39
 msgid "the link you are commenting on has been deleted"
-msgstr ""
+msgstr "ο σύνδεσμος που σχολιάζετε έχει διαγραφεί"
 
 #: r2/controllers/errors.py:40
 msgid "that comment has been deleted"
@@ -240,11 +240,11 @@ msgstr "αυτό το σχόλιο διαγράφηκε"
 
 #: r2/controllers/errors.py:41
 msgid "that element has been deleted"
-msgstr ""
+msgstr "αυτό το στοιχείο έχει διαγραφεί"
 
 #: r2/controllers/errors.py:42
 msgid "that password is unacceptable"
-msgstr ""
+msgstr "αυτός ο κωδικός δεν είναι αποδεκτός"
 
 #: r2/controllers/errors.py:43
 msgid "invalid password"
@@ -285,18 +285,18 @@ msgstr "παρακαλώ εισάγετε ένα όνομα χρήστη"
 #: r2/controllers/errors.py:53
 #, python-format
 msgid "that number isn't in the right range (%(min)d to %(max)d)"
-msgstr "αυτός ο αριθμός δεν είναι στο σωστό διάστημα ( %(min)d μέχρι %(max)d"
+msgstr "αυτός ο αριθμός δεν είναι στο σωστό διάστημα (%(min)d μέχρι %(max)d"
 
 #: r2/controllers/errors.py:54
 msgid "you used a character here that we can't handle"
-msgstr ""
+msgstr "χρησιμοποιήσατε ένα χαρακτήρα που δεν μπορούμε να χειριστούμε"
 
 #: r2/controllers/errors.py:55
 #, python-format
 msgid ""
 "your bid must be at least $%(min)d per day and no more than to $%(max)d in "
 "total."
-msgstr ""
+msgstr "η προσφορά πρέπει να είναι τουλάχιστον $%(min)d ανά ημέρα και το πολύ $%(max)d συνολικά"
 
 #: r2/controllers/errors.py:56
 msgid "that link has already been submitted"
@@ -316,7 +316,7 @@ msgstr "δεν επιτρέπεται να κάνετε μια δημοσίευ�
 
 #: r2/controllers/errors.py:60
 msgid "you must specify a subreddit"
-msgstr ""
+msgstr "πρέπει να επιλέξετε ένα υποreddit"
 
 #: r2/controllers/errors.py:61
 msgid "that name isn't going to work"
@@ -325,7 +325,7 @@ msgstr "αυτό το όνομα δε μας κάνει"
 #: r2/controllers/errors.py:62
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
-msgstr ""
+msgstr "το παρακάνετε. δοκιμάστε ξανά σε %(time)σ"
 
 #: r2/controllers/errors.py:63
 msgid "your session has expired"
@@ -358,11 +358,11 @@ msgstr "παρακαλώ μοιραστήτε το με μέχρι %(num)s email
 msgid ""
 "that reddit has already been oversold on %(start)s to %(end)s. Please pick "
 "another reddit or date."
-msgstr ""
+msgstr "αυτό το reddit έχει ήδη ξεπεράσει τις πωλήσεις από %(start)s ως %(end)s. Παρακαλώ επιλέξτε άλλο reddit ή ημερομηνία."
 
 #: r2/controllers/errors.py:74
 msgid "please provide a date of the form mm/dd/yyyy"
-msgstr ""
+msgstr "παρακαλώ δώστε μια ημερομηνία στη μορφή μμ/ηη/εεεε"
 
 #: r2/controllers/errors.py:75
 msgid "the dates need to be in order and not identical"
@@ -371,71 +371,71 @@ msgstr "οι ημερομηνίες πρέπει να είναι σε σειρά
 #: r2/controllers/errors.py:76
 #, python-format
 msgid "please enter a date at least %(day)s days in the future"
-msgstr ""
+msgstr "παρακαλώ δώστε μια ημερομηνία τουλάχιστον %(day)s μέρες στο μέλλον"
 
 #: r2/controllers/errors.py:77
 #, python-format
 msgid "please enter a date at least %(day)s days in the past"
-msgstr ""
+msgstr "παρακαλώ δώστε μια ημερομηνία τουλάχιστον %(day)s μέρες στο παρελθόν"
 
 #: r2/controllers/errors.py:78
 #, python-format
 msgid "address problem: %(message)s"
-msgstr ""
+msgstr "πρόβλημα διεύθυνσης: %(message)s"
 
 #: r2/controllers/errors.py:79
 #, python-format
 msgid "card problem: %(message)s"
-msgstr ""
+msgstr "πρόβλημα κάρτας: %(message)s"
 
 #: r2/controllers/errors.py:80
 #, python-format
 msgid "this is too long (max: %(max_length)s)"
-msgstr ""
+msgstr "αυτό είναι πολύ μεγάλο (μέγιστο: %(max_length)s)"
 
 #: r2/controllers/errors.py:81
 msgid "we need something here"
-msgstr "κάτι πρέπει να υπάρχει εδώ"
+msgstr "πρέπει να υπάρχει κάτι εδώ"
 
 #: r2/controllers/errors.py:82
 msgid "we've never seen that code before"
-msgstr ""
+msgstr "δεν έχουμε ξαναδεί αυτόν τον κωδικό"
 
 #: r2/controllers/errors.py:83
 msgid "that code has already been claimed -- perhaps by you?"
-msgstr ""
+msgstr "αυτός ο κωδικός έχει ήδη διεκδικηθεί -- ίσως από εσάς;"
 
 #: r2/controllers/errors.py:84
 msgid "that reddit doesn't allow text posts"
-msgstr ""
+msgstr "αυτό το reddit δεν επιτρέπει δημοσιεύσεις κειμένου"
 
 #: r2/controllers/errors.py:85
 msgid "that reddit only allows text posts"
-msgstr ""
+msgstr "αυτό το reddit επιτρέπει μόνο δημοσιεύσεις κειμένου"
 
 #: r2/controllers/errors.py:86
 msgid "that's a piece of history now; it's too late to reply to it"
-msgstr ""
+msgstr "αυτό είναι μέρος της ιστορίας τώρα· είναι πολύ αργά για να απαντήσετε σε αυτό"
 
 #: r2/controllers/errors.py:87
 msgid "invalid css name"
-msgstr ""
+msgstr "μη έγκυρο όνομα css"
 
 #: r2/controllers/errors.py:88
 msgid "too many flair css classes"
-msgstr ""
+msgstr "υπερβολικά πολλές κλάσεις css για κλίσεις"
 
 #: r2/controllers/errors.py:89
 msgid "invalid client id"
-msgstr ""
+msgstr "μη έγκυρο αναγνωριστικό πελάτη"
 
 #: r2/controllers/errors.py:90
 msgid "access denied by the user"
-msgstr ""
+msgstr "δεν επιτρέπεται η πρόσβαση από το χρήστη"
 
 #: r2/controllers/errors.py:91
 msgid "please confirm the form"
-msgstr ""
+msgstr "παρακαλώ επιβεβαιώστε τη φόρμα"
 
 #: r2/controllers/feedback.py:40
 msgid "help translate reddit into your language"
@@ -447,31 +447,31 @@ msgstr "βοηθήστε να μεταφραστεί"
 
 #: r2/controllers/front.py:121
 msgid "self service help"
-msgstr ""
+msgstr "υπηρεσία αυτοβοήθειας"
 
 #: r2/controllers/front.py:304
 msgid "no comments (yet)"
-msgstr ""
+msgstr "δεν υπάρχουν σχόλια (ακόμα)"
 
 #: r2/controllers/front.py:306
 #, python-format
 msgid "all %d comments"
-msgstr ""
+msgstr "και τα %d σχόλια"
 
 #: r2/controllers/front.py:308
 #, python-format
 msgid "top %d comments"
-msgstr ""
+msgstr "κορυφαία %d σχόλια"
 
 #: r2/controllers/front.py:331
 #, python-format
 msgid "show all %d"
-msgstr ""
+msgstr "δείξε όλα %d"
 
 #: r2/controllers/front.py:333
 #, python-format
 msgid "show %d"
-msgstr ""
+msgstr "δείξε %d"
 
 #: r2/controllers/front.py:349
 msgid "create a reddit"
@@ -479,7 +479,7 @@ msgstr "δημιουργία ενός reddit"
 
 #: r2/controllers/front.py:351 r2/templates/createsubreddit.html:49
 msgid "create a community"
-msgstr ""
+msgstr "δημιουργήστε μια κοινότητα"
 
 #: r2/controllers/front.py:529 r2/lib/menus.py:142
 msgid "awards"
@@ -524,41 +524,41 @@ msgstr "καλωσήρθατε πισω"
 
 #: r2/controllers/front.py:1042
 msgid "thanks"
-msgstr ""
+msgstr "ευχαριστούμε"
 
 #: r2/controllers/front.py:1075 r2/controllers/front.py:1097
 #: r2/lib/menus.py:101 r2/templates/gold.html:83
 msgid "reddit gold"
-msgstr ""
+msgstr "χρυσός reddit"
 
 #: r2/controllers/ipn.py:228
 msgid "nice try."
-msgstr ""
+msgstr "καλή προσπάθεια."
 
 #: r2/controllers/ipn.py:276
 msgid "the gold has been delivered!"
-msgstr ""
+msgstr "ο χρυσός έχει παραδοθεί"
 
 #: r2/controllers/ipn.py:449
 msgid "thanks for buying reddit gold!"
-msgstr ""
+msgstr "ευχαριστούμε που αγοράσατε χρυσό reddit"
 
 #: r2/controllers/ipn.py:459 r2/templates/thanks.html:32
 msgid "thanks for buying creddits!"
-msgstr ""
+msgstr "ευχαριστούμε που αγοράσατε creddit!"
 
 #: r2/controllers/ipn.py:460
 msgid "To spend them, visit [/gold](/gold) or your favorite person's userpage."
-msgstr ""
+msgstr "Για να τα ξοδέψετε, επισκεφτήτε το [/gold](/gold) της σελίδας χρήστη του αγαπημένου σας προσώπου."
 
 #: r2/controllers/ipn.py:473
 msgid "thanks for giving reddit gold!"
-msgstr ""
+msgstr "ευχαριστούμε που προσφέρετε χρυσό reddit!"
 
 #: r2/controllers/ipn.py:474
 #, python-format
 msgid "Your gift to %s has been delivered."
-msgstr ""
+msgstr "Το δώρο σας στον/στην %s έχει παραδωθεί."
 
 #: r2/controllers/listingcontroller.py:348
 msgid "newest submissions"
@@ -960,11 +960,11 @@ msgstr ""
 #: r2/lib/menus.py:128 r2/lib/pages/pages.py:1032
 #: r2/templates/createsubreddit.html:39
 msgid "community settings"
-msgstr ""
+msgstr "ρυθμίσεις κοινότητας"
 
 #: r2/lib/menus.py:129
 msgid "edit moderators"
-msgstr ""
+msgstr "επεξεργασία διαχειριστών"
 
 #: r2/lib/menus.py:130
 msgid "moderator mail"
@@ -972,7 +972,7 @@ msgstr ""
 
 #: r2/lib/menus.py:131
 msgid "edit approved submitters"
-msgstr ""
+msgstr "επεξεργασία εγκεκριμένων "
 
 #: r2/lib/menus.py:132 r2/lib/menus.py:133 r2/lib/pages/pages.py:2755
 msgid "ban users"
@@ -2655,15 +2655,15 @@ msgstr ""
 
 #: r2/templates/flairlist.html:31
 msgid "go"
-msgstr ""
+msgstr "μετάβαση"
 
 #: r2/templates/flairlist.html:35
 msgid "back to full list"
-msgstr ""
+msgstr "επιστροφή στην πλήρη λίστα"
 
 #: r2/templates/flairlist.html:38
 msgid "back to the beginning"
-msgstr ""
+msgstr "επιστροφή στην αρχή"
 
 #: r2/templates/flairlist.html:46 r2/templates/flairtemplatelist.html:35
 msgid "flair text"
